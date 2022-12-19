@@ -1,0 +1,101 @@
+<div class="container-fluid ocultar">
+    <div class="toolbar bg-dark blanco">
+        <div class="notify mensaje-status-annotate ocultar">
+            <span
+                >No se pudo iniciar sesión en
+                <a
+                    class="link"
+                    target="_blank"
+                    href="https://annotate.appen.com"
+                    >https://annotate.appen.com</a
+                >
+                verifica la contraseña manualmente y actualizala en el
+                sistema.</span
+            >
+        </div>
+        <div class="notify mensaje-status-account ocultar">
+            <span
+                >Hay problemas para iniciar sesión en
+                <a class="link" target="_blank" href="https://account.appen.com"
+                    >https://account.appen.com</a
+                >
+                verifica la contraseña manualmente.</span
+            >
+        </div>
+        <div class="notify mensaje-status-vpn_restricted ocultar">
+            <span>VPN detected / Location Restricted</span>
+        </div>
+        <div class="mensaje-status-banned ocultar">
+            <span
+                >Cuenta baneada por favor consulta el siguiente link para
+                verificar
+                <a
+                    class="link-white"
+                    target="_blank"
+                    href="https://account.appen.com"
+                    >https://account.appen.com</a
+                ></span
+            >
+        </div>
+        <span class="server_name t-fix">-----:</span>
+        <span class="saldo t-fix separacion">-----</span>
+        <span class="t-fix">Dueño:</span>
+        <span class="cliente_name t-fix separacion">-----</span>
+        <span class="t-fix appen_c"
+            >Appen(<span class="n_login">0</span>):</span
+        >
+        <a class="appen_link" href="https://annotate.appen.com" target="_blank"
+            ><span class="cuenta_a t-fix appen_c">-----</span></a
+        >
+        <div class="setup_content">
+            <button class="btn primary btn_setup">AJUSTES</button>
+        </div>
+
+        <div class="status_toolbar">
+            <span class="request_color">Solicitud exitosa: </span
+            ><span id="request_success" class="request_color rs separacion"
+                >0</span
+            >
+            <span class="timeout_color">Fuera de tiempo: </span
+            ><span class="timeout_color rt separacion">0</span>
+            <span class="request_error_color">Error de solicitud: </span
+            ><span class="request_error_color re">0</span>
+        </div>
+    </div>
+
+    <div class="row main_buscador">
+        <div class="border bg-dark w-100 buscador_content">
+            <div class="card buscador ocultar">
+                <button class="hide_btn_buscador ocultar"></button>
+                <h3 class="titulo t-center">
+                    <input
+                        class="check_pause"
+                        checked="checked"
+                        type="checkbox"
+                    />
+                    <span class="status_card">ACTIVO</span>
+                    <button class="btn danger cerrar_card">X</button>
+                </h3>
+                <div class="card_body t-center t-fix">
+                    <h4 class="task_id d-block t-bold"></h4>
+                    <span
+                        ><a class="task_url" href="#" target="_blank"></a
+                    ></span>
+                </div>
+                <div class="pie">
+                    <div class="buscando">
+                        <span>Buscado: </span
+                        ><span class="buscando_val">0</span>
+                    </div>
+                    <div class="encontrado">
+                        <span>Encontrado: </span
+                        ><span class="encontrado_val">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span class="version">Versión: </span><span>1.2.3</span>
+    </div>
+</div>
